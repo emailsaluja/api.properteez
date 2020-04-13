@@ -8,10 +8,7 @@ var app = express();
 app.use(bodyparser.json());
 
 
-
-
-
-app.use('/api/properties', properties);
+app.use('/v1/api/properties', properties);
 
 
 
